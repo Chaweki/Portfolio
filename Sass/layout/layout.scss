@@ -1,0 +1,40 @@
+.container{
+    padding: 5rem 5.563rem
+    
+}
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    nav{
+        display: flex;
+        margin-right: 5rem;
+        width: 35%;
+        justify-content: space-around;
+        
+    }
+    &-title{
+        flex-flow: nowrap;
+        
+    }
+
+}
+
+.main{
+    margin: 4.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer{
+    padding: 0 2.813rem 0 4.5rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    &-link{
+        display: flex;
+        width: 20%;
+        justify-content: space-around;
+    }
+}

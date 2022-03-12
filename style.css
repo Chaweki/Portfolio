@@ -74,4 +74,146 @@ th {
   padding: 0;
 }
 
+:root {
+  --yellow:#FCAD38;
+  --bg:#000;
+  --tx:#FFF;
+  --tx-gray:#DFDFDF;
+  --tx-link:#BBBBBB ;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--tx);
+  background: var(--bg);
+}
+
+.header-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--tx);
+}
+.header-title-name {
+  color: var(--tx-gray);
+  font-weight: 300;
+}
+.header-title-bracket {
+  color: var(--yellow);
+  font-size: 2.25rem;
+}
+.header-link {
+  text-decoration: none;
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: var(--tx-link);
+}
+.header-link:hover {
+  color: var(--yellow);
+  transition: color 0.3s;
+}
+
+.main-content {
+  width: 27.563rem;
+  height: 18.688rem;
+}
+.main-p {
+  margin-bottom: 2rem;
+}
+.main-title {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.main-title-yellow {
+  color: var(--yellow);
+}
+.main-btn {
+  height: 3rem;
+  width: 11.563rem;
+  font-size: 1.125rem;
+  color: var(--tx);
+  background: none;
+  border: 0.125rem solid var(--tx);
+  border-radius: 6px;
+}
+.main-img {
+  border-radius: 17.125rem;
+  position: relative;
+  z-index: 2;
+  box-shadow: -85px 175px 246px -122px #fff;
+}
+.main-img-obj {
+  position: relative;
+}
+.main-img-obj::before {
+  content: "";
+  height: 40.313rem;
+  width: 28.375rem;
+  padding: 86% 55%;
+  z-index: 1;
+  position: absolute;
+  top: 46%;
+  right: 23%;
+  border-top: 3px solid #5F5F5F;
+  border-bottom: 3px solid #5D602800;
+  border-right: 3px solid #5D60284A;
+  border-left: 3px solid #5F5F5F;
+  border-radius: 24.75rem;
+}
+
+.footer-btn {
+  width: 7.625rem;
+  height: 4rem;
+  max-width: 7.625rem;
+  max-height: 4rem;
+  padding-right: 1.4rem;
+  text-align: right;
+  background: var(--tx-gray);
+  box-shadow: -4px -4px 12px rgba(255, 255, 255, 0.25), 4px 6px 16px -4px rgba(0, 0, 0, 0.25);
+  border-radius: 90px;
+}
+
+.container {
+  padding: 5rem 5.563rem;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header nav {
+  display: flex;
+  margin-right: 5rem;
+  width: 35%;
+  justify-content: space-around;
+}
+.header-title {
+  flex-flow: nowrap;
+}
+
+.main {
+  margin: 4.5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer {
+  padding: 0 2.813rem 0 4.5rem;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.footer-link {
+  display: flex;
+  width: 20%;
+  justify-content: space-around;
+}
+
 /*# sourceMappingURL=style.css.map */

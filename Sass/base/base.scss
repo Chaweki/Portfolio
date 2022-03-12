@@ -7,6 +7,8 @@
 }
 
 body{
+    overflow-y:hidden;
+    overflow-x: auto;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -76,7 +78,7 @@ body{
         border-radius:17.125rem ;
         position: relative;
         z-index: 2;
-        box-shadow: -85px 175px 246px -122px #fff;
+        box-shadow: -38px 121px 254px -132px #fff;
         &-obj{
             position: relative;
             
